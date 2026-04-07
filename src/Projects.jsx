@@ -35,6 +35,8 @@ import backend from "./images/backend.png"
 import Fight from "./images/fight.png"
 import stranger from "./images/stranger.png"
 import booth from "./images/booth.png"
+import vow from './images/vow.png'
+import full from './images/full.png'
 
 
 export default function Projects() {
@@ -106,11 +108,17 @@ export default function Projects() {
       { title: "Pokemon Fight", img: Fight, demo: "https://pokemon-fight-backend-9hgh.onrender.com/", desc: "This is my Pokémon Fight project developed with the MERN Stack, offering engaging battle mechanics and a dynamic UI. " },
 
     ],
+    "Live Project": [
+      { title: "Vow Studio", img: vow, demo: "https://vowstudio.in/", desc: "Wedding Template Marketplace Website Developed a modern wedding template marketplace using Next.js and TypeScript enabling users to browse and purchase premium invitation templates  Integrated MongoDB for efficient data storage and management. Implemented high-quality video previews to enhance user experience and help users visualize designs before purchase. Focused on building a responsive, visually appealing UI with smooth navigation and optimized performance to improve user engagement and conversions" },
+
+      { title: "full stack learning", img: full, demo: "https://www.fullstacklearning.com/", desc: "A collaborative full-stack learning platform designed to provide an interactive and practical learning experience for developers. The platform enables students to learn modern web technologies, practice through real-time quizzes, and track their progress. It features a scalable backend built with TypeScript, Node.js, Express.js, and MongoDB, ensuring high performance and efficient data handling, along with a dynamic frontend for seamless user interaction." },
+
+    ],
 
 
   };
 
-  const tabList = ["html", "js", "react", "tailwind", "bootstrap", "Backend Project"];
+  const tabList = ["Live Project", "html", "js", "react", "tailwind", "bootstrap", "Backend Project",];
 
   return (
     <section id="projects" className="text-white min-h-screen px-4 sm:px-8 py-14">
