@@ -37,7 +37,7 @@ export default function Footer() {
       delay: 2000,
     },
     {
-      href: "https://github.com/Jatin136900",
+      href: "https://github.com/Jatin9785",
       icon: <FaGithub />,
       label: "GitHub",
       color: "#fff",
